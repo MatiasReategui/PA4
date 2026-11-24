@@ -1,0 +1,54 @@
+
+> plataforma-solicitudes-academicas@1.0.0 build
+> next build
+
+  ▲ Next.js 14.2.35
+  - Environments: .env.local
+
+   Linting and checking validity of types ...
+   Creating an optimized production build ...
+   Disabled SWC as replacement for Babel because of custom Babel configuration ".babelrc" https://nextjs.org/docs/messages/swc-disabled
+   Using external babel configuration from /home/claude/pa4-solicitudes/.babelrc
+ ✓ Compiled successfully
+   Collecting page data ...
+   Generating static pages (0/11) ...
+   Generating static pages (2/11) 
+   Generating static pages (5/11) 
+   Generating static pages (8/11) 
+ ✓ Generating static pages (11/11)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (pages)                               Size     First Load JS
+┌ ● / (ISR: 3600 Seconds)                   898 B           119 kB
+├   /_app                                   0 B             118 kB
+├ ○ /404                                    401 B           118 kB
+├ ƒ /api/auth/login                         0 B             118 kB
+├ ƒ /api/auth/logout                        0 B             118 kB
+├ ƒ /api/auth/me                            0 B             118 kB
+├ ƒ /api/health                             0 B             118 kB
+├ ƒ /api/solicitudes                        0 B             118 kB
+├ ƒ /api/solicitudes/[id]                   0 B             118 kB
+├ ƒ /api/tipos                              0 B             118 kB
+├ ƒ /api/vitals                             0 B             118 kB
+├ ○ /login                                  1.63 kB         119 kB
+├ ƒ /solicitudes                            1.02 kB         119 kB
+├ ƒ /solicitudes/[id]                       1.64 kB         119 kB
+├ ○ /solicitudes/nueva                      1.81 kB         120 kB
+├ ● /tipos (ISR: 3600 Seconds)              575 B           118 kB
+└ ● /tipos/[slug] (ISR: 3600 Seconds)       743 B           118 kB
+    ├ /tipos/constancia-de-estudios
+    ├ /tipos/reserva-de-matricula
+    ├ /tipos/justificacion-de-inasistencia
+    └ [+2 more paths]
++ First Load JS shared by all               120 kB
+  ├ chunks/framework-64ad27b21261a9ce.js    44.8 kB
+  ├ chunks/main-7b24343d7a370a86.js         40.4 kB
+  ├ chunks/pages/_app-3eddc0cbfa1dc3a5.js   30.6 kB
+  └ other shared chunks (total)             3.68 kB
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses getStaticProps)
+   (ISR)      incremental static regeneration (uses revalidate in getStaticProps)
+ƒ  (Dynamic)  server-rendered on demand
+
