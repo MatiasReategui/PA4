@@ -1,0 +1,26 @@
+== Archivos JS del cliente ==
+662 bytes  .next/static/chunks/pages/404-e8357e693907e219.js
+89836 bytes  .next/static/chunks/pages/_app-3eddc0cbfa1dc3a5.js
+2941 bytes  .next/static/chunks/pages/_error-8300d6daf585c6d0.js
+1989 bytes  .next/static/chunks/pages/index-76a8e3cd65d15407.js
+3646 bytes  .next/static/chunks/pages/login-e890fe658cf099da.js
+2458 bytes  .next/static/chunks/pages/solicitudes-2cc31b2224c75ff3.js
+1141 bytes  .next/static/chunks/pages/tipos-3fb604c6b035e323.js
+
+== Source maps publicados (debe ser 0) ==
+0
+
+== Secreto JWT dentro del bundle del cliente (debe ser 0) ==
+0
+
+== Líneas del chunk main minificado (0 saltos de línea = todo en una sola línea) ==
+0 .next/static/chunks/main-7b24343d7a370a86.js
+
+== console.log del código del proyecto en el bundle (debe ser 0) ==
+0  (el único que aparece, 1 coincidencia en _app, pertenece a la librería @vercel/analytics en node_modules, no al código del equipo)
+
+== Variables de compilación (DefinePlugin) en /api/health ==
+{"ok":true,"status":"up","uptimeSeconds":6,"node":"v22.23.5","env":"production","buildId":"HhJA5LJgkXZYVABfsBJyW","builtAt":"2026-11-23T21:28:04.441Z","timestamp":"2026-11-24T01:25:27.581Z"}
+
+== Cabecera X-Powered-By (debe ser 0) ==
+0
