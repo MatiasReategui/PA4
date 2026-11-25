@@ -7,10 +7,9 @@
 
 | N.º | Nombre completo | Rol | Participación |
 |---|---|---|---|
-| 1 | Jose Stuart Fonseca Vega | Desarrollo de API y sesiones | Actividad 1: consumo de APIs, JWT y sesión en React |
-| 2 | Matias Reynaldo Reategui Sotelo | Desarrollo Next.js | Actividad 2: SSR, SSG y rutas dinámicas |
-| 3 | Christian Paolo Vera Palomino | Despliegue | Actividad 3: publicación en Vercel y verificación |
-| 4 | Enzo Rodrigo Alvarado Vera | Producción y monitoreo | Actividad 4: optimización, Webpack/Babel, variables de entorno, logs |
+| 1 | Jose Stuart Fonseca Vega | Desarrollo de API, Desarrollo Next.js y sesiones | Actividad 1: consumo de APIs, JWT y sesión en React & Actividad 2: SSR, SSG y rutas dinámicas |
+| 2 | Matias Reynaldo Reategui Sotelo | Despliegue | Actividad 3: publicación en Vercel y verificación |
+| 3 | Christian Paolo Vera Palomino | Producción y monitoreo | Actividad 4: optimización, Webpack/Babel, variables de entorno, logs |
 
 Todos los integrantes conocen y pueden explicar la solución completa.
 
