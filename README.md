@@ -47,7 +47,7 @@ Regla aplicada: si la página es igual para todos y cambia poco, SSG; si depende
 ### Actividad 3 — Despliegue en Vercel (Sesión 13)
 - Proyecto importado desde GitHub; Next.js detectado automáticamente (`vercel.json`).
 - Variables de entorno configuradas en el panel de Vercel (no en el repositorio).
-- **URL de revisión:** `https://____________.vercel.app`
+- **URL de revisión:** `https://pa-4-eta.vercel.app`
 - Verificación posterior al despliegue de las rutas principales, `/api/health`, la cookie de sesión y los logs. Detalle en [`docs/parte-3-despliegue-vercel.md`](docs/parte-3-despliegue-vercel.md).
 
 ### Actividad 4 — Preparación para producción (Sesión 13)
@@ -123,7 +123,6 @@ Para probar el despliegue: `BASE_URL=https://<proyecto>.vercel.app npm run smoke
 **Actividad 4**
 ![Analizador de bundles](docs/capturas/14-analyze-bundles.png)
 ![Logs en Vercel](docs/capturas/15-vercel-logs.png)
-![Verificación de producción](docs/capturas/16-produccion-verificacion.png)
 
 ## Conclusiones
 
