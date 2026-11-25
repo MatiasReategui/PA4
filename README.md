@@ -48,7 +48,6 @@ Regla aplicada: si la página es igual para todos y cambia poco, SSG; si depende
 - Proyecto importado desde GitHub; Next.js detectado automáticamente (`vercel.json`).
 - Variables de entorno configuradas en el panel de Vercel (no en el repositorio).
 - **URL de revisión:** `https://pa-4-eta.vercel.app`
-- Verificación posterior al despliegue de las rutas principales, `/api/health`, la cookie de sesión y los logs. Detalle en [`docs/parte-3-despliegue-vercel.md`](docs/parte-3-despliegue-vercel.md).
 
 ### Actividad 4 — Preparación para producción (Sesión 13)
 - **Minificación y optimización:** automática en `next build`, con archivos con hash, `Cache-Control: immutable` en assets, `compress`, sin source maps y sin `X-Powered-By`.
@@ -56,7 +55,6 @@ Regla aplicada: si la página es igual para todos y cambia poco, SSG; si depende
 - **Webpack** (`next.config.js`): `DefinePlugin` con `__BUILD_ID__` y `__BUILD_TIME__`, alias `@` y analizador de bundles (`npm run analyze`).
 - **Variables de entorno:** `JWT_SECRET`, `JWT_EXPIRES_IN`, `LOG_LEVEL`, `NEXT_PUBLIC_*`. En producción la app se niega a iniciar sesión si falta `JWT_SECRET`.
 - **Logs y monitoreo:** logger JSON (`lib/logger.js`), un log por petición con `requestId`, endpoint `/api/health`, Web Vitals enviadas a `/api/vitals` y Vercel Analytics.
-- Detalle y justificación en [`docs/parte-4-produccion.md`](docs/parte-4-produccion.md).
 
 ## Solución propuesta
 
