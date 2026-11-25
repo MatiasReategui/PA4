@@ -133,7 +133,3 @@ Para probar el despliegue: `BASE_URL=https://<proyecto>.vercel.app npm run smoke
 - Trabajo por integrante: cada uno desarrolló una actividad, pero todas dependen entre sí (la sesión alimenta el SSR, el despliegue necesita las variables de entorno, la producción usa el logger en la API).
 
 **Relación con los contenidos evaluados:** Sesión 11 (Fetch/Axios, JWT, sesiones), Sesión 12 (Next.js, SSR/SSG, rutas dinámicas), Sesión 13 (Vercel, minificación, Webpack/Babel, variables de entorno, logs y monitoreo).
-
-## Video de exposición
-
-**Video público de YouTube:** [PEGAR AQUÍ EL ENLACE]
