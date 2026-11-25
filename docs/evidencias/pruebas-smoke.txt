@@ -1,0 +1,24 @@
+> plataforma-solicitudes-academicas@1.0.0 smoke
+> node scripts/smoke-test.mjs
+
+✔ GET /api/health responde up
+✔ GET /api/tipos (público) devuelve el catálogo
+✔ GET /api/solicitudes sin sesión -> 401
+✔ POST /api/auth/login con datos inválidos -> 400
+✔ POST /api/auth/login con clave incorrecta -> 401
+✔ POST /api/auth/login correcto entrega cookie httpOnly con JWT
+✔ GET /api/auth/me con cookie devuelve el usuario
+✔ JWT manipulado es rechazado -> 401
+✔ Estudiante solo ve sus solicitudes
+✔ Crear solicitud inválida -> 400 con detalles
+✔ Crear solicitud válida -> 201
+✔ Estudiante NO puede ver solicitud ajena (id 3) -> 403
+✔ Estudiante NO puede cambiar estados -> 403
+✔ Coordinación puede cambiar el estado
+✔ SSR: /solicitudes sin sesión redirige a /login
+✔ SSR: /solicitudes con sesión devuelve HTML con datos
+✔ SSR: /solicitudes/3 de otro usuario -> 404
+✔ SSG: /tipos/revision-de-nota existe y /tipos/inventado -> 404
+✔ POST /api/auth/logout limpia la cookie
+
+Todas las pruebas pasaron

@@ -1,0 +1,30 @@
+> plataforma-solicitudes-academicas@1.0.0 start
+> next start
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3000
+
+ ✓ Starting...
+ ✓ Ready in 2.2s
+{"time":"2026-11-24T01:25:27.150Z","level":"info","message":"api","requestId":"izy6yqm7","method":"GET","url":"/api/health","status":200,"ms":3,"user":null}
+{"time":"2026-11-24T01:25:27.166Z","level":"info","message":"api","requestId":"a46j6yd5","method":"GET","url":"/api/tipos","status":200,"ms":3,"user":null}
+{"time":"2026-11-24T01:25:27.191Z","level":"info","message":"api","requestId":"7znko0kc","method":"GET","url":"/api/solicitudes","status":401,"ms":9,"user":null}
+{"time":"2026-11-24T01:25:27.195Z","level":"info","message":"api","requestId":"pyhxjdrg","method":"POST","url":"/api/auth/login","status":400,"ms":1,"user":null}
+{"time":"2026-11-24T01:25:27.233Z","level":"warn","message":"login fallido","email":"lucia@isil.pe"}
+{"time":"2026-11-24T01:25:27.239Z","level":"info","message":"api","requestId":"bvkaqxeb","method":"POST","url":"/api/auth/login","status":401,"ms":37,"user":null}
+{"time":"2026-11-24T01:25:27.284Z","level":"info","message":"login correcto","userId":1}
+{"time":"2026-11-24T01:25:27.288Z","level":"info","message":"api","requestId":"xbx6k792","method":"POST","url":"/api/auth/login","status":200,"ms":47,"user":null}
+{"time":"2026-11-24T01:25:27.301Z","level":"info","message":"api","requestId":"kdpa3t9e","method":"GET","url":"/api/auth/me","status":200,"ms":3,"user":1}
+{"time":"2026-11-24T01:25:27.305Z","level":"info","message":"api","requestId":"8eqdrnbn","method":"GET","url":"/api/auth/me","status":401,"ms":1,"user":null}
+{"time":"2026-11-24T01:25:27.320Z","level":"info","message":"api","requestId":"lebcty2k","method":"GET","url":"/api/solicitudes","status":200,"ms":11,"user":1}
+{"time":"2026-11-24T01:25:27.326Z","level":"info","message":"api","requestId":"q8y42r4v","method":"POST","url":"/api/solicitudes","status":400,"ms":3,"user":1}
+{"time":"2026-11-24T01:25:27.328Z","level":"info","message":"api","requestId":"qyt8l480","method":"POST","url":"/api/solicitudes","status":201,"ms":1,"user":1}
+{"time":"2026-11-24T01:25:27.334Z","level":"info","message":"api","requestId":"z88im84l","method":"GET","url":"/api/solicitudes/3","status":403,"ms":1,"user":1}
+{"time":"2026-11-24T01:25:27.337Z","level":"info","message":"api","requestId":"mx72sjzw","method":"PATCH","url":"/api/solicitudes/4","status":403,"ms":1,"user":1}
+{"time":"2026-11-24T01:25:27.358Z","level":"info","message":"login correcto","userId":3}
+{"time":"2026-11-24T01:25:27.359Z","level":"info","message":"api","requestId":"mtgjy4ft","method":"POST","url":"/api/auth/login","status":200,"ms":20,"user":null}
+{"time":"2026-11-24T01:25:27.361Z","level":"info","message":"api","requestId":"q0djvfkh","method":"PATCH","url":"/api/solicitudes/4","status":200,"ms":1,"user":3}
+{"time":"2026-11-24T01:25:27.528Z","level":"info","message":"api","requestId":"wjrr7j3e","method":"POST","url":"/api/auth/logout","status":200,"ms":0,"user":null}
+{"time":"2026-11-24T01:25:27.582Z","level":"info","message":"api","requestId":"xp5ctxsq","method":"GET","url":"/api/health","status":200,"ms":1,"user":null}
+{"time":"2026-11-24T01:25:27.613Z","level":"info","message":"web-vital","name":"LCP","value":812.4,"id":"v1","label":"web-vital"}
+{"time":"2026-11-24T01:25:27.614Z","level":"info","message":"api","requestId":"5y63hfuw","method":"POST","url":"/api/vitals","status":204,"ms":1,"user":null}
